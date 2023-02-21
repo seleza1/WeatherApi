@@ -15,7 +15,9 @@ extension ViewController {
             tf.placeholder = "Введите город"
         }
         let search = UIAlertAction(title: "Search", style: .default) { action in
+            
             let textField = alertController.textFields?.first
+            //self.activityIndicator.startAnimating()
             guard let cityName = textField?.text else { return }
             if cityName != "" {
                 let city = cityName.split(separator: " ").joined(separator: "%20")
