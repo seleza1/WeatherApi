@@ -19,7 +19,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func searchButtonPressed(_ sender: UIButton) {
-
+        presentSearchAlertController(withTitle: "Enter city namr", message: nil, style: .alert) { [unowned self] city in
+            <#code#>
+        }
 
     }
 
