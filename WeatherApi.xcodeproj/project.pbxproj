@@ -64,19 +64,75 @@
 		CE315DCE29A526BB007421C6 /* WeatherApi */ = {
 			isa = PBXGroup;
 			children = (
+				CE315DEC29A535BD007421C6 /* Applications */,
+				CE315DF229A53673007421C6 /* Models */,
+				CE315DF129A5364E007421C6 /* ViewControllers */,
+				CE315DEE29A5360F007421C6 /* Extension */,
+				CE315DEB29A535AF007421C6 /* NetworkManager */,
+				CE315DF029A53634007421C6 /* Resources */,
+				CE315DEF29A5361C007421C6 /* Storyboards */,
+			);
+			path = WeatherApi;
+			sourceTree = "<group>";
+		};
+		CE315DEB29A535AF007421C6 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
 				CE315DE529A53010007421C6 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		CE315DEC29A535BD007421C6 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
 				CE315DCF29A526BB007421C6 /* AppDelegate.swift */,
 				CE315DD129A526BB007421C6 /* SceneDelegate.swift */,
-				CE315DD329A526BB007421C6 /* ViewController.swift */,
-				CE315DD529A526BB007421C6 /* Main.storyboard */,
-				CE315DD829A526BD007421C6 /* Assets.xcassets */,
-				CE315DDA29A526BD007421C6 /* LaunchScreen.storyboard */,
 				CE315DDD29A526BD007421C6 /* Info.plist */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		CE315DEE29A5360F007421C6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
 				CE315DE329A52B0A007421C6 /* Extension + AlertController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE315DEF29A5361C007421C6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE315DD529A526BB007421C6 /* Main.storyboard */,
+				CE315DDA29A526BD007421C6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE315DF029A53634007421C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE315DD829A526BD007421C6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE315DF129A5364E007421C6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE315DD329A526BB007421C6 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE315DF229A53673007421C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				CE315DE729A53058007421C6 /* CurrentWeather.swift */,
 				CE315DE929A53077007421C6 /* WeatherModel.swift */,
 			);
-			path = WeatherApi;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,7 +361,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L86P4HUDQ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeatherApi/Info.plist;
+				INFOPLIST_FILE = WeatherApi/Applications/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -336,7 +392,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L86P4HUDQ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WeatherApi/Info.plist;
+				INFOPLIST_FILE = WeatherApi/Applications/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
